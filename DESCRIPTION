@@ -1,0 +1,26 @@
+Package: AnnotateDB
+Type: Package
+Title: AnnotateDB
+Version: 0.1.0
+Author: c(person("Nathan James", "Barnett", email = "nathan@netadiscovery.org", role = c("aut", "cre")))
+Maintainer: Nathan James Barnett <nathan@netadiscovery.org>
+Description: Annotates Data
+            This is a proprietary R package developed by NEURAL EPILEPTOTRANSCRIPTOMIC ADVANCEMENT. 
+             Please see the LICENSE file for detailed terms and conditions.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5)
+Imports: oligo,
+          limma,
+          biomaRt,
+          clusterProfiler,
+          org.Hs.eg.db,
+          DOSE,
+          ggplot2,
+          pheatmap,
+          edgeR,
+          affy,
+          hgu133plus2.db,
+          annotate
+          
